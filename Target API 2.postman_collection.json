@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "6391e812-c4c6-448f-9efd-c87940926930",
+		"name": "Target API 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36664296"
+	},
+	"item": [
+		{
+			"name": "People",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swaAPI}}people/1/",
+					"host": [
+						"{{swaAPI}}people"
+					],
+					"path": [
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swaAPI}}films/1/",
+					"host": [
+						"{{swaAPI}}films"
+					],
+					"path": [
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Starships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swaAPI}}starships/9/",
+					"host": [
+						"{{swaAPI}}starships"
+					],
+					"path": [
+						"9",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swaAPI}}vehicles/4/",
+					"host": [
+						"{{swaAPI}}vehicles"
+					],
+					"path": [
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swaAPI}}species/3/",
+					"host": [
+						"{{swaAPI}}species"
+					],
+					"path": [
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
